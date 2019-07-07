@@ -1,0 +1,63 @@
+h1 {
+  color: red;
+}
+
+.mcontainer {
+  margin-top: 25px;
+  margin-left: 250px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-column-gap: 16px;
+}
+
+.i1, .i2, .i3 {
+  border: 3px solid white;
+  border-radius: 15px;
+}
+.i1 ul, .i2 ul, .i3 ul {
+  list-style-type: none;
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.i1 ul li, .i2 ul li, .i3 ul li {
+  text-align: center;
+  padding: 8px;
+}
+.i1 ul li:nth-child(even), .i2 ul li:nth-child(even), .i3 ul li:nth-child(even) {
+  background-color: #f1f1f1;
+}
+.i1 ul:hover, .i2 ul:hover, .i3 ul:hover {
+  bottom: 20px;
+  z-index: 1;
+  box-shadow: 2px 4px 6px #808080;
+}
+
+.head1 {
+  background-color: teal;
+}
+
+.subhead1 {
+  background-color: aqua !important;
+}
+
+.head2 {
+  background-color: red;
+}
+
+.subhead2 {
+  background-color: red !important;
+  opacity: 0.8;
+}
+
+.head3 {
+  background-color: green;
+}
+
+.subhead3 {
+  background-color: green !important;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=main.css.map */
